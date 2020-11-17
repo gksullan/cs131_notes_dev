@@ -1,7 +1,7 @@
 ---
 title: Pinhole, computational, and corner cameras
 keywords: (insert comma-separated keywords here)
-order: 18 # Lecture number for 2020
+order: 17 # Lecture number for 2020
 ---
 
 ---
