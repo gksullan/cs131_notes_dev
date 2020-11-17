@@ -404,22 +404,21 @@ allows you to properly scale the inserted image depending on where it
 needs to be inserted. A few examples with pictures of people inserted at
 the proper scale ratio are shown below. The individuals inserted are a
 larger size relative to those farther in the background prior to
-insertion.\
+insertion.
 
 ![image]({{ site.baseurl }}/assets/images/image_scale.png)\
-*(image taken from CS131 Lecture 17)*
+<div align="center">*(image taken from CS131 Lecture 17)*
 
 ![image]({{ site.baseurl }}/assets/images/depth_probing1.png) ![image]({{ site.baseurl }}/assets/images/depth_probing3.png)\
-*(image taken from screenshots at
-http://grail.cs.washington.edu/projects/shadow/)*
+<div align="center">*(image taken from screenshots at http://grail.cs.washington.edu/projects/shadow/)*
 
 Intrinsic Assumptions
 ---------------------
 
 There are a number of intrinsic assumptions about the camera that are
-made about $M$ in the projection $P'$ introduced above.
-$$\begin{aligned}
-P' &= MP \\
+made about $M$ in the projection $P'$ introduced above.\\
+<div align="center">$$\begin{aligned}
+<div align="center">P' &= MP \\
 &= \begin{bmatrix}
 f & 0 & 0 & 0\\
 0 & f & 0 & 0\\
@@ -430,17 +429,19 @@ x\\
 y\\
 z\\
 1
-\end{bmatrix}\end{aligned}$$ We can define a matrix $K$, which is
+\end{bmatrix}\end{aligned}$$\\
+We can define a matrix $K$, which is
 referred to as the matrix of intrinsic parameters or the camera
-intrinsics. $$\begin{aligned}
+intrinsics.\\
+<div align="center">$$\begin{aligned}
 K = \begin{bmatrix}
 f & 0 & 0 \\
 0 & f & 0 \\
 0 & 0 & 1 
 \end{bmatrix}\end{aligned}$$ Which allows us to state the projection
 matrix in compact form $$\begin{aligned}
-P' &= K \begin{bmatrix} I & 0 \end{bmatrix} P\end{aligned}$$ There are
-three main assumptions we make about $M$:
+P' &= K \begin{bmatrix} I & 0 \end{bmatrix} P\end{aligned}$$\\
+There are three main assumptions we make about $M$:
 
 -   Note that $f$ is equal in both dimensions, making the assumption
     that it is a unit aspect ratio.
@@ -449,7 +450,6 @@ three main assumptions we make about $M$:
 
 -   Assume there is no skew
 
-\
 These assumptions work in an ideal world. In order to apply the
 projection matrix to real world images, we need to relax these
 assumptions. Specifically, we can:
