@@ -1,5 +1,5 @@
 ---
-title: Camera parameters and stereo
+title: Pinhole, computational, and corner cameras
 keywords: (insert comma-separated keywords here)
 order: 18 # Lecture number for 2020
 ---
