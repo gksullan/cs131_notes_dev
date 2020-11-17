@@ -416,7 +416,8 @@ Intrinsic Assumptions
 ---------------------
 
 There are a number of intrinsic assumptions about the camera that are
-made about $M$ in the projection $P'$ introduced above.\\
+made about $M$ in the projection $P'$ introduced above.
+
 $$\begin{aligned}
 P' &= MP \\
 &= \begin{bmatrix}
@@ -429,37 +430,35 @@ x\\
 y\\
 z\\
 1
-\end{bmatrix}\end{aligned}$$\\
+\end{bmatrix}\end{aligned}$$
+
 We can define a matrix $K$, which is
 referred to as the matrix of intrinsic parameters or the camera
-intrinsics.\\
+intrinsics.
+
 $$\begin{aligned}
 K = \begin{bmatrix}
 f & 0 & 0 \\
 0 & f & 0 \\
 0 & 0 & 1 
-\end{bmatrix}\end{aligned}$$ Which allows us to state the projection
-matrix in compact form $$\begin{aligned}
-P' &= K \begin{bmatrix} I & 0 \end{bmatrix} P\end{aligned}$$\\
+\end{bmatrix}\end{aligned}$$ 
+
+Which allows us to state the projection
+matrix in compact form 
+
+$$\begin{aligned}
+P' &= K \begin{bmatrix} I & 0 \end{bmatrix} P\end{aligned}$$
+
 There are three main assumptions we make about $M$:
-
--   Note that $f$ is equal in both dimensions, making the assumption
-    that it is a unit aspect ratio.
-
+-   Note that $f$ is equal in both dimensions, making the assumption that it is a unit aspect ratio.
 -   The optical center is assumed to be at $(0,0)$
-
 -   Assume there is no skew
 
 These assumptions work in an ideal world. In order to apply the
 projection matrix to real world images, we need to relax these
 assumptions. Specifically, we can:
-
 -   Say the optical center is at $(u_0, v_0)$
-
--   Assume rectangular pixels instead of square pixels. This means
-    adjusting the focal length to be different in each dimension, we
-    will refer to this as $\alpha$ and $\beta$.
-
+-   Assume rectangular pixels instead of square pixels. This means adjusting the focal length to be different in each dimension, we will refer to this as $\alpha$ and $\beta$.
 -   Allow for some skew, we will call this $s$.
 
 ### Removing the Optical Center Assumption
@@ -473,7 +472,9 @@ K = \begin{bmatrix}
 f & 0 & u_0 \\
 0 & f & v_0 \\
 0 & 0 & 1 
-\end{bmatrix}\end{aligned}$$ So we have:
+\end{bmatrix}\end{aligned}$$ 
+
+So we have:
 
 $$\begin{aligned}
 P' = K \begin{bmatrix} I & 0 \end{bmatrix} P \rightarrow
