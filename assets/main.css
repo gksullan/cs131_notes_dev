@@ -272,4 +272,8 @@ ol.module-chapter-list li .keywords {
   padding-left: 0;
 }
 
-img[alt=image] { height: 300px; width: 350px; }
+img[alt=image] { height: 300px; width: 350px;   
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;}
