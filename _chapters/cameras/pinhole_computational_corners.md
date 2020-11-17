@@ -417,8 +417,8 @@ Intrinsic Assumptions
 
 There are a number of intrinsic assumptions about the camera that are
 made about $M$ in the projection $P'$ introduced above.\\
-<div align="center">$$\begin{aligned}
-<div align="center">P' &= MP \\
+$$\begin{aligned}
+P' &= MP \\
 &= \begin{bmatrix}
 f & 0 & 0 & 0\\
 0 & f & 0 & 0\\
@@ -433,7 +433,7 @@ z\\
 We can define a matrix $K$, which is
 referred to as the matrix of intrinsic parameters or the camera
 intrinsics.\\
-<div align="center">$$\begin{aligned}
+$$\begin{aligned}
 K = \begin{bmatrix}
 f & 0 & 0 \\
 0 & f & 0 \\
