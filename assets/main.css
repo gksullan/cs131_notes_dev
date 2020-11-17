@@ -271,3 +271,5 @@ ol.module-chapter-list li .keywords {
   padding-right: 0;
   padding-left: 0;
 }
+
+img[alt=drawing] { height: 200px; width: 200px; }
