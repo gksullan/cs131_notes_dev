@@ -112,7 +112,7 @@ filter to the light rays passing through the pinhole. However, an
 aperture that is too small will create an image that is too dark and
 subject to diffraction effects.
 
-![image]({{ site.baseurl }}/assets/images/IMG_0826.JPG) ![{{ site.baseurl }}/assets/images/image](IMG_0825.JPG) ![{{ site.baseurl }}/assets/images/image](IMG_0827.JPG)
+![image]({{ site.baseurl }}/assets/images/IMG_0826.JPG) ![image]({{ site.baseurl }}/assets/images/IMG_0825.JPG) ![image]({{ site.baseurl }}/assets/images/IMG_0827.JPG)
 *(Photo taken by group member)* This figure displays how the image of a
 dog changes with increasing camera aperture. At a very low aperture, not
 enough light can pass into the camera, creating a darkened image. At a
@@ -741,9 +741,8 @@ narrow the field of view as illustrated in the graphic below.
 References
 ==========
 
-Wu, Jiajun "Camera Models.\" CS 131: Computer Vision; Foundations and
-Applications. Stanford University. Palo Alto, CA. November 2020.
-Lecture.\
-\
-\
-Introduction,\
+Wu, Jiajun “Camera Models.” CS 131:  Computer Vision; Foundations and Applications.  Stanford University.  Palo Alto, CA. November 2020.  Lecture.Wang, Yifan, et al.  
+
+“People as Scene Probes.” Computer Vision – ECCV 2020 Lecture Notes in ComputerScience, 2020, pp.  438–454., doi:10.1007/978-3-030-58607-226.http://grail.cs.washington.edu/projects/shadow/“
+
+Depth of Field - Depth of Focus amp; Circles of Confusion - II.”Introduction,www.theimage.com/digitalphoto2/index7b.html.
