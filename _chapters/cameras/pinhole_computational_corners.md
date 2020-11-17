@@ -29,7 +29,7 @@ was allowed to be projected onto the film, each pixel on the film would
 capture the light emitted from all parts of the object, creating an
 unfocused and blurry image.
 
-![image]({{ site.baseurl }}/assets/examples/challenges.jpeg) *(Image taken from CS 131 Lecture 17)*
+![image](/pinhole_nobarrier.png) *(Image taken from CS 131 Lecture 17)*
 This figure displays how without any type of filtering applied to the
 light rays emitted from an object, the projected image on the film will
 be noisy and unclear.
