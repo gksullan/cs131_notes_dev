@@ -45,7 +45,7 @@ the bottom part of the object can only pass through the aperture if they
 are angled upwards, the image projected onto the film will be
 upside-down.
 
-![image](pinholecamera2.png) *(Photo taken from Stanford CS231A Course
+![image]({{ site.baseurl }}/assets/images/pinholecamera2.png) *(Photo taken from Stanford CS231A Course
 Notes 1: Camera Models)* This figure displays how in a pinhole camera
 system, light rays emitted from an object filter through an aperture in
 a barrier to create an inverted image of the object on a film.
@@ -55,7 +55,7 @@ onto a wall of a darkened room instead of a film is called camera
 obscura. Camera obscura was practiced in classical China and Greece and
 commonly used for tracing images onto paper.
 
-![image](camera_obscura.png) *(Photo taken by group member)* This figure
+![image]({{ site.baseurl }}/assets/images/camera_obscura.png) *(Photo taken by group member)* This figure
 displays the inverted projected image of the makeshift camera obscura
 created in the garage of a group member.
 
@@ -73,7 +73,7 @@ angles, we are unable to say with certainty who is taller than whom,
 which ball is closer, or whether each person is parallel or
 perpendicular to everyone and everything else.
 
-![image](perspective.png) *(Image taken from CS 131 Lecture 17)* This
+![image]({{ site.baseurl }}/assets/images/perspective.png) *(Image taken from CS 131 Lecture 17)* This
 figure is an example of a photograph in which dimensionality reduction
 from three dimensions to two dimensions has caused a loss of length and
 angle information.
@@ -82,7 +82,7 @@ However, straight lines are preserved in an image, and tracing parallel
 lines will lead to an intersection at a vanishing point along a
 vanishing line within an image.
 
-![image](vanishing.JPG) *(Photo taken by group member)* This figure
+![image]({{ site.baseurl }}/assets/images/vanishing.JPG) *(Photo taken by group member)* This figure
 displays an image with a vanishing line shown in red and the path toward
 a vanishing point shown in blue.
 
@@ -91,7 +91,7 @@ Projective Geometry
 
 Let us assume we have the pinhole camera system shown below.
 
-![image](pinholecamera1.png) *(Photo taken from Stanford CS231A Course
+![image]({{ site.baseurl }}/assets/images/pinholecamera1.png) *(Photo taken from Stanford CS231A Course
 Notes 1: Camera Models)* This figure is a mathematical model of a
 pinhole camera system with labeled relevant variables.
 
@@ -116,7 +116,7 @@ filter to the light rays passing through the pinhole. However, an
 aperture that is too small will create an image that is too dark and
 subject to diffraction effects.
 
-![image](IMG_0826.JPG) ![image](IMG_0825.JPG) ![image](IMG_0827.JPG)
+![image]({{ site.baseurl }}/assets/images/IMG_0826.JPG) ![{{ site.baseurl }}/assets/images/image](IMG_0825.JPG) ![{{ site.baseurl }}/assets/images/image](IMG_0827.JPG)
 *(Photo taken by group member)* This figure displays how the image of a
 dog changes with increasing camera aperture. At a very low aperture, not
 enough light can pass into the camera, creating a darkened image. At a
@@ -134,13 +134,13 @@ Effects of a Lens
 
 The role of a lens is to focus light on the film.
 
-![image](Role_of_lens.png)
+![image]({{ site.baseurl }}/assets/images/Role_of_lens.png)
 
 ### Focal Point
 
 Every lens has a focal point and a focal length, $f$.
 
-![image](Focal_point.png)
+![image]({{ site.baseurl }}/assets/images/Focal_point.png)
 
 Rays that pass through the center of the lens are not deviated. All
 parallel rays of light converge at a single point (the focal point) on a
@@ -151,13 +151,13 @@ plane located at focal length, $f$.
 There is a specific distance at which objects are "in focus" (at this
 distance, rays of light converge at a single point).
 
-![image](Circle_of_confusion.png)
+![image]({{ site.baseurl }}/assets/images/Circle_of_confusion.png)
 
 Objects that are at a depth different to this specific depth do not
 converge at a single point (are "out of focus") and create a 'circle of
 confusion.'
 
-![image](Circles_of_confusion_3d.jpg)
+![image]({{ site.baseurl }}/assets/images/Circles_of_confusion_3d.jpg)
 
 *(Photo taken from theimage.com)* As you can see here, objects that are
 further from the true focus point converge beyond the plane of focus,
@@ -176,7 +176,7 @@ Refraction: When a ray passes from one medium to another.
 
 ### Reflection
 
-![image](Reflection_and_refraction.png)
+![image]({{ site.baseurl }}/assets/images/Reflection_and_refraction.png)
 
 where $r_1$ is the incoming ray, $r_1$' is the reflected ray, and
 $\alpha_1$ is the incident angle. The surface normal is not pictured,
@@ -198,7 +198,7 @@ A very thin lens is a lens with a very small thickness, which is
 negligible in relation to the radius of the curve of the lens. This
 assumption simplifies ray tracing calculations.
 
-![image](Thin_Lens.png)
+![image]({{ site.baseurl }}/assets/images/Thin_Lens.png)
 
 With thin lenses, we can ignore the effect of the thickness has on how
 the ray travels. We can simply just focus of the light travel itself.
@@ -241,7 +241,7 @@ a lens is unable to focus all wavelengths of color to the same point. In
 more technical terms, we refer to this as \"chromatic aberration,\" or
 \"color fringing.\"
 
-![image](chromatic.jpg)
+![image]({{ site.baseurl }}/assets/images/chromatic.jpg)
 
 *(image taken from Wikipedia)* This figure depicts an image taken by a
 high quality lens, with minimal chromatic aberration on the top, versus
@@ -249,7 +249,7 @@ a low quality image with significant chromatic aberration.
 
 Here, we discuss a more abstract model.
 
-![image](abstract_chromatic.png)
+![image]({{ site.baseurl }}/assets/images/abstract_chromatic.png)
 
 *(image taken from CS131 Lecture 17)*
 
@@ -267,7 +267,7 @@ of glass (i.e. low dispersion glass) and digital post-processing.
 
 ### Spherical Aberration
 
-![image](spherical_ex.png)
+![image]({{ site.baseurl }}/assets/images/spherical_ex.png)
 
 *(image taken from CS131 Lecture 17)* Example of Spherical Aberration.
 
@@ -277,7 +277,7 @@ points, compromising the sharpness of the image and resulting in an
 overall unfocused image. Ideally, all rays should converge at a single
 point, but, like shown below, this is not always possible.
 
-![image](spherical_abb.png)
+![image]({{ site.baseurl }}/assets/images/spherical_abb.png)
 
 *(image taken from CS131 Lecture 17)* An abstract depiction of spherical
 aberration. Here, the rays further from the optical axis focus closer.
@@ -298,12 +298,12 @@ increases. In contrast, in a barrel distortion, the opposite is true--
 the image magnification decreases as the as distance from the optical
 axis increases.
 
-![image](radial_abs.png)
+![image]({{ site.baseurl }}/assets/images/radial_abs.png)
 
 *(image taken from CS131 Lecture 17)* Radial distortions can be
 classified as either a pincushion or a barrel distortion.
 
-![image](radial_example.png)
+![image]({{ site.baseurl }}/assets/images/radial_example.png)
 
 *(image taken from CS131 Lecture 17)* An example of a barrel distortion.
 
@@ -322,7 +322,7 @@ parameters and the extrinsic parameters will be discussed individually.
 Projection Geometry
 -------------------
 
-![image](Pinhole camera_real world.JPG)
+![image]({{ site.baseurl }}/assets/images/Pinhole camera_real world.JPG)
 
 *(Image taken from CS131 Lecture 17 slides)* Relating a real-world point
 to a point on a camera.
@@ -349,7 +349,7 @@ would make our downstream analysis easier.
 Homogeneous Coordinates
 -----------------------
 
-![image](Pinhole camera_real world 2.JPG)
+![image]({{ site.baseurl }}/assets/images/Pinhole camera_real world 2.JPG)
 
 *(Image taken from CS131 Lecture 17 slides)* 3D projection of point $P$
 into $P'$.
@@ -412,10 +412,10 @@ the proper scale ratio are shown below. The individuals inserted are a
 larger size relative to those farther in the background prior to
 insertion.\
 
-![image](image_scale.png)\
+![image]({{ site.baseurl }}/assets/images/image_scale.png)\
 *(image taken from CS131 Lecture 17)*
 
-![image](depth_probing1.png) ![image](depth_probing3.png)\
+![image]({{ site.baseurl }}/assets/images/depth_probing1.png) ![image]({{ site.baseurl }}/assets/images/depth_probing3.png)\
 *(image taken from screenshots at
 http://grail.cs.washington.edu/projects/shadow/)*
 
@@ -692,7 +692,7 @@ y
 distance from the camera since there is no scale factor as illustrated
 below.
 
-![image](Orthogonal_Perspective.JPG)\
+![image]({{ site.baseurl }}/assets/images/Orthogonal_Perspective.JPG)\
 *(Image taken from CS131 Lecture 17 slides)*
 
 Scaled Orthographic Projection
@@ -739,7 +739,7 @@ Field of View (Zoom)
 Zooming into an area will enlarge corresponding objects, but it will
 narrow the field of view as illustrated in the graphic below.
 
-![image](Field_of_Zoom.JPG)\
+![image]({{ site.baseurl }}/assets/images/Field_of_Zoom.JPG)\
 *(Image taken from CS131 Lecture 17 slides)*
 
 References
