@@ -5,10 +5,9 @@ order: 17 # Lecture number for 2020
 ---
 
 ---
-author:
-- |
-  Gurdeep Sullan, Eva Prakash, Danny Tse, Ryan Kirk,\
-  Zijian Zhang, Bronson Sansoni, Chandra Rajyam, Diego Vargas
+Authors:
+Gurdeep Sullan, Eva Prakash, Danny Tse, Ryan Kirk,\
+Zijian Zhang, Bronson Sansoni, Chandra Rajyam, Diego Vargas
 date: November 2020
 title: CS 131 Lecture 17 Notes
 ---
