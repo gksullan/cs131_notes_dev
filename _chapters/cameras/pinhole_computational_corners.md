@@ -418,6 +418,7 @@ Intrinsic Assumptions
 
 There are a number of intrinsic assumptions about the camera that are
 made about $M$ in the projection $P'$ introduced above.
+
 $$\begin{aligned}
 P' &= MP \\
 &= \begin{bmatrix}
@@ -430,16 +431,26 @@ x\\
 y\\
 z\\
 1
-\end{bmatrix}\end{aligned}$$ We can define a matrix $K$, which is
+\end{bmatrix}\end{aligned}$$ 
+
+We can define a matrix $K$, which is
 referred to as the matrix of intrinsic parameters or the camera
-intrinsics. $$\begin{aligned}
+intrinsics. 
+
+$$\begin{aligned}
 K = \begin{bmatrix}
 f & 0 & 0 \\
 0 & f & 0 \\
 0 & 0 & 1 
-\end{bmatrix}\end{aligned}$$ Which allows us to state the projection
-matrix in compact form $$\begin{aligned}
-P' &= K \begin{bmatrix} I & 0 \end{bmatrix} P\end{aligned}$$ There are
+\end{bmatrix}\end{aligned}$$ 
+
+Which allows us to state the projection
+matrix in compact form 
+
+$$\begin{aligned}
+P' &= K \begin{bmatrix} I & 0 \end{bmatrix} P\end{aligned}$$ 
+
+There are
 three main assumptions we make about $M$:
 
 -   Note that $f$ is equal in both dimensions, making the assumption
@@ -449,7 +460,7 @@ three main assumptions we make about $M$:
 
 -   Assume there is no skew
 
-\
+
 These assumptions work in an ideal world. In order to apply the
 projection matrix to real world images, we need to relax these
 assumptions. Specifically, we can:
@@ -473,7 +484,9 @@ K = \begin{bmatrix}
 f & 0 & u_0 \\
 0 & f & v_0 \\
 0 & 0 & 1 
-\end{bmatrix}\end{aligned}$$ So we have:
+\end{bmatrix}\end{aligned}$$ 
+
+So we have:
 
 $$\begin{aligned}
 P' = K \begin{bmatrix} I & 0 \end{bmatrix} P \rightarrow
