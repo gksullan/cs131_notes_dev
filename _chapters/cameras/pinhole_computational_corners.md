@@ -4,10 +4,8 @@ keywords: (insert comma-separated keywords here)
 order: 17 # Lecture number for 2020
 ---
 
----
 Authors:
 Gurdeep Sullan, Eva Prakash, Danny Tse, Ryan Kirk, Zijian Zhang, Bronson Sansoni, Chandra Rajyam, Diego Vargas
----
 
 Introduction
 ============
